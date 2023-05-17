@@ -1,0 +1,121 @@
+[
+  {
+    "caption": "admin",
+    "modules": "['admin']",
+    "icon": "",
+    "routes": [
+      {
+        "name": "agency_list",
+        "module": "admin",
+        "caption": "Agency",
+        "icon": "",
+        "path": "/admin/agency_list"
+      },
+      {
+        "name": "bank_list",
+        "module": "admin",
+        "caption": "Bank",
+        "icon": "",
+        "path": "/admin/bank_list"
+      },
+      {
+        "name": "fee_list",
+        "module": "admin",
+        "caption": "Fee",
+        "icon": "",
+        "path": "/admin/fee_list"
+      },
+      {
+        "name": "fee_details_list",
+        "module": "admin",
+        "caption": "Fee details",
+        "icon": "",
+        "path": "/admin/fee_details_list"
+      }
+    ]
+  },
+  {
+    "caption": "report",
+    "modules": "['report']",
+    "icon": "",
+    "routes": [
+      {
+        "name": "consiliation_bank_view_list",
+        "module": "report",
+        "caption": "Consiliation bank view",
+        "icon": "",
+        "path": "/report/consiliation_bank_view_list"
+      },
+      {
+        "name": "cust_identification_report_list",
+        "module": "report",
+        "caption": "Cust identification report",
+        "icon": "",
+        "path": "/report/cust_identification_report_list"
+      },
+      {
+        "name": "deposit_for_payment_list",
+        "module": "report",
+        "caption": "Deposit for payment",
+        "icon": "",
+        "path": "/report/deposit_for_payment_list"
+      },
+      {
+        "name": "lotes_report_list",
+        "module": "report",
+        "caption": "Lotes report",
+        "icon": "",
+        "path": "/report/lotes_report_list"
+      }
+    ]
+  },
+  {
+    "caption": "security",
+    "modules": "['security']",
+    "icon": "",
+    "routes": [
+      {
+        "name": "auth_group_list",
+        "module": "security",
+        "caption": "Auth group",
+        "icon": "",
+        "path": "/security/auth_group_list"
+      },
+      {
+        "name": "auth_group_permissions_list",
+        "module": "security",
+        "caption": "Auth group permissions",
+        "icon": "",
+        "path": "/security/auth_group_permissions_list"
+      },
+      {
+        "name": "auth_permission_list",
+        "module": "security",
+        "caption": "Auth permission",
+        "icon": "",
+        "path": "/security/auth_permission_list"
+      },
+      {
+        "name": "auth_user_list",
+        "module": "security",
+        "caption": "Auth user",
+        "icon": "",
+        "path": "/security/auth_user_list"
+      },
+      {
+        "name": "auth_user_groups_list",
+        "module": "security",
+        "caption": "Auth user groups",
+        "icon": "",
+        "path": "/security/auth_user_groups_list"
+      },
+      {
+        "name": "auth_user_user_permissions_list",
+        "module": "security",
+        "caption": "Auth user user permissions",
+        "icon": "",
+        "path": "/security/auth_user_user_permissions_list"
+      }
+    ]
+  }
+]
